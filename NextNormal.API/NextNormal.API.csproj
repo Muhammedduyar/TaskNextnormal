@@ -19,4 +19,9 @@
     <ProjectReference Include="..\NextNormal.Service\NextNormal.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
 </Project>
