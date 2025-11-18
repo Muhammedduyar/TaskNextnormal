@@ -1,0 +1,51 @@
+gitignore
+## .gitignore for ASP.NET Core
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.mdf
+*.ldf
+App_Data/
+
+# Entity Framework Migrations (DAL katmanýndakiler hariç)
+#NextNormal.DAL/Migrations/
+
+# Logs
+*.log
+logs/
+
+# App settings (development only)
+appsettings.Development.json
+appsettings.Local.json
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+
+# Project specific
+/NextNormal.API/bin/
+/NextNormal.API/obj/
+/NextNormal.Business/bin/
+/NextNormal.Business/obj/
+/NextNormal.DAL/bin/
+/NextNormal.DAL/obj/
+/NextNormal.Entity/bin/
+/NextNormal.Entity/obj/
